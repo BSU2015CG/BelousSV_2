@@ -1,0 +1,147 @@
+html body {
+	width: 100%;
+	height: 100%;
+	/*background: linear-gradient(#FFF, #42aaff, #FFF);*/
+	margin: 0;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+header > div a {
+    width: 100px;
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    font-size: 20px;
+    color: #000;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-image: url(../image/black.jpg);
+	margin: 0 10px;
+}
+
+header {
+	min-height: 50px;
+}
+
+.square-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.square {
+	min-width: 250px;
+	max-width: 250px;
+	min-height: 250px;
+	max-height: 250px;
+	border: 3px solid #e4e4e4;
+}
+
+.panel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 400px;
+    color: #fff;
+}
+
+.rgb > .panel{
+    margin: 10px 0;
+}
+
+.cmyk > .panel {
+    margin: 7px 10px;
+}
+
+.rgb input[type="text"], .cmyk input[type="text"] {
+    outline: none;
+    margin: 0 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-panel {
+    padding: 0 10px;
+}
+
+.progress {
+    min-width: 255px;
+    max-width: 255px;
+    height: 25px;
+    background-color: rgba(0,0,0,0);
+    margin-left: 5px;
+}
+
+.circle {
+    cursor: pointer;
+    min-width: 24px;
+    max-width: 24px;
+    height: 24px;
+    margin-top: -1px;
+    background: linear-gradient(30deg, #2D2D2D, snow, #2D2D2D);
+    border: 2px solid  #2D2D2D;
+    border-radius: 24px;
+}
+
+.rgb-cmyk {
+    display: flex;
+    justify-content: space-around;
+}
+
+.select-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.select-section > .select{
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+.hidden {
+    display: none;
+}

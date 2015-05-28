@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="CSS_RESET.css">
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+</head>
+<body id="mainContent">
+	<div class="mainInput">
+		<ul id="list1">
+			<div class="btn">
+				<li><input type="radio" name="radio" id="radio1" class="radio"><label class="radioLabel" for="radio1">Simple</label></li>
+			</div>
+			<div class="btn">
+				<li><input type="radio" name="radio" id="radio2" class="radio"><label class="radioLabel" for="radio2">Bresenhem</label></li>
+			</div>
+			
+			<div class="btn">
+				<li><input type="radio" name="radio" id="radio3" class="radio"><label class="radioLabel" for="radio3">DDA</label></li>
+			</div>
+		</ul>
+	</div>
+	<div class="canvas">
+		<canvas id="cnv"></canvas>
+	</div>
+	<div id="footer">
+		<div id="range">
+			<label id="rngLabel" for="rng">Range:</label><input type="range" value="25" id="rng" min=5 max=50 step=1 />
+		</div>
+		<label id="time"></label>
+		<button id="resetBtn">Reset</button>
+
+		<label id="err"></label>
+	</div>
+</body>
+</html>

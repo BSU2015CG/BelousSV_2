@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/index.css">
+	<title>Color scheme</title>
+</head>
+<body>
+	<header>
+        <div><a href="index.html">Lab1</a></div>
+        <div><a href="Lab1a.html">Lab1a</a></div>
+	</header>
+	<div class="container">
+		<div id="color-line"class="color-line">
+		</div>
+	</div>
+	<section class='square-container'>
+		<!--<canvas  id="color_panel" class="color-panel square"></canvas> -->
+        <input  id="color_panel" class="color-panel square" type="color"/>
+		<div id='current_color' class='current-color square'></div>
+	</section>
+    <section class="select-section">
+        <select id="selectScheme" class="select">
+            <option selected>RGB</option>
+            <option>CMYK</option>
+            <option>HSV</option>
+            <option>LUV</option>
+        </select>
+    </section>
+    <secion class="rgb-cmyk">
+        <div id="rgb" class="rgb">
+            <div class="panel">
+                <h2 class="text-panel">R</h2>
+                <input class="progress" id="rgbR" type="range" value="0" min="0" max="255"/>
+                <input id="rgbRInput" type="text" value="0"/>
+            </div>
+            <div class="panel">
+                <h2 class="text-panel">G</h2>
+                <input class="progress" id="rgbG" type="range" value="0" min="0" max="255"/>
+                <input id="rgbGInput" type="text" value="0"/>
+            </div>
+            <div class="panel">
+                <h2 class="text-panel">B</h2>
+                <input class="progress" id="rgbB" type="range" value="0" min="0" max="255"/>
+                <input id="rgbBInput" type="text" value="0"/>
+            </div>
+        </div>
+        <div id="cmyk" class="cmyk">
+            <div class="panel">
+                <h2 class="text-panel">C</h2>
+                <input class="progress" id="cmykC" type="range" value="0" min="0" max="100"/>
+                <input id="cmykCInput" type="text" value="0"/>
+            </div>
+            <div class="panel">
+                <h2 class="text-panel">M</h2>
+                <input class="progress" id="cmykM" type="range" value="0" min="0" max="100"/>
+                <input id="cmykMInput" type="text" value="0"/>
+            </div>
+            <div class="panel">
+                <h2 class="text-panel">Y</h2>
+                <input class="progress" id="cmykY" type="range" value="0" min="0" max="100"/>
+                <input id="cmykYInput" type="text" value="0"/>
+            </div>
+            <div class="panel">
+                <h2 class="text-panel">K</h2>
+                <input class="progress" id="cmykK" type="range" value="0" min="0" max="100"/>
+                <input id="cmykKInput" type="text" value="0"/>
+            </div>
+        </div>
+        <div id="hsv" class="rgb">
+            <div class="panel">
+                <h2 class="text-panel">H</h2>
+                <input class="progress" id="hsvH" type="range" value="0" min="0" max="359"/>
+                <input id="hsvHInput" type="text" value="0"/>
+            </div>
+            <div class="panel">
+                <h2 class="text-panel">S</h2>
+                <input class="progress" id="hsvS" type="range" value="0" min="0" max="100"/>
+                <input id="hsvSInput" type="text" value="0"/>
+            </div>
+            <div class="panel">
+                <h2 class="text-panel">V</h2>
+                <input class="progress" id="hsvV" type="range" value="0" min="0" max="100"/>
+                <input id="hsvVInput" type="text" value="0"/>
+            </div>
+        </div>
+        <div id="luv" class="rgb">
+            <div class="panel">
+                <h2 class="text-panel">L</h2>
+                <input class="progress" id="luvL" type="range" value="0" min="0" max="100"/>
+                <input id="luvLInput" type="text" value="0"/>
+            </div>
+            <div class="panel">
+                <h2 class="text-panel">U</h2>
+                <input class="progress" id="luvU" type="range" value="-100" min="-100" max="100"/>
+                <input id="luvUInput" type="text" value="-100"/>
+            </div>
+            <div class="panel">
+                <h2 class="text-panel">V</h2>
+                <input class="progress" id="luvV" type="range" value="-100" min="-100" max="100"/>
+                <input id="luvVInput" type="text" value="-100"/>
+            </div>
+        </div>
+    </secion>
+	<footer></footer>
+	<script src="./JS/index.js"></script>
+</body>
+</html>
