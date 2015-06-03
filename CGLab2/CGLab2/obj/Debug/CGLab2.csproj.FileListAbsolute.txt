@@ -1,0 +1,42 @@
+c:\users\sined\documents\visual studio 2012\Projects\CGLab2\CGLab2\bin\Debug\CGLab2.exe.config
+c:\users\sined\documents\visual studio 2012\Projects\CGLab2\CGLab2\bin\Debug\CGLab2.exe
+c:\users\sined\documents\visual studio 2012\Projects\CGLab2\CGLab2\bin\Debug\CGLab2.pdb
+c:\users\sined\documents\visual studio 2012\Projects\CGLab2\CGLab2\obj\Debug\CGLab2.csprojResolveAssemblyReference.cache
+c:\users\sined\documents\visual studio 2012\Projects\CGLab2\CGLab2\obj\Debug\MainWindow.baml
+c:\users\sined\documents\visual studio 2012\Projects\CGLab2\CGLab2\obj\Debug\MainWindow.g.cs
+c:\users\sined\documents\visual studio 2012\Projects\CGLab2\CGLab2\obj\Debug\App.g.cs
+c:\users\sined\documents\visual studio 2012\Projects\CGLab2\CGLab2\obj\Debug\CGLab2_MarkupCompile.cache
+c:\users\sined\documents\visual studio 2012\Projects\CGLab2\CGLab2\obj\Debug\CGLab2.g.resources
+c:\users\sined\documents\visual studio 2012\Projects\CGLab2\CGLab2\obj\Debug\CGLab2.Properties.Resources.resources
+c:\users\sined\documents\visual studio 2012\Projects\CGLab2\CGLab2\obj\Debug\CGLab2.csproj.GenerateResource.Cache
+c:\users\sined\documents\visual studio 2012\Projects\CGLab2\CGLab2\obj\Debug\CGLab2.exe
+c:\users\sined\documents\visual studio 2012\Projects\CGLab2\CGLab2\obj\Debug\CGLab2.pdb
+d:\CGLab2\CGLab2\bin\Debug\CGLab2.exe.config
+d:\CGLab2\CGLab2\obj\Debug\CGLab2.pdb
+d:\CGLab2\CGLab2\bin\Debug\CGLab2.exe
+d:\CGLab2\CGLab2\bin\Debug\CGLab2.pdb
+d:\CGLab2\CGLab2\obj\Debug\CGLab2.csprojResolveAssemblyReference.cache
+d:\CGLab2\CGLab2\obj\Debug\MainWindow.baml
+d:\CGLab2\CGLab2\obj\Debug\MainWindow.g.cs
+d:\CGLab2\CGLab2\obj\Debug\App.g.cs
+d:\CGLab2\CGLab2\obj\Debug\CGLab2_MarkupCompile.cache
+d:\CGLab2\CGLab2\obj\Debug\CGLab2.g.resources
+d:\CGLab2\CGLab2\obj\Debug\CGLab2.Properties.Resources.resources
+d:\CGLab2\CGLab2\obj\Debug\CGLab2.csproj.GenerateResource.Cache
+d:\CGLab2\CGLab2\obj\Debug\CGLab2.exe
+d:\projects\КГ\CGLab2\CGLab2\bin\Debug\CGLab2.exe.config
+d:\projects\КГ\CGLab2\CGLab2\obj\Debug\CGLab2.exe
+d:\projects\КГ\CGLab2\CGLab2\obj\Debug\CGLab2.pdb
+d:\projects\КГ\CGLab2\CGLab2\bin\Debug\CGLab2.exe
+d:\projects\КГ\CGLab2\CGLab2\bin\Debug\CGLab2.pdb
+d:\projects\КГ\CGLab2\CGLab2\obj\Debug\CGLab2.csprojResolveAssemblyReference.cache
+d:\projects\КГ\CGLab2\CGLab2\obj\Debug\MainWindow.baml
+d:\projects\КГ\CGLab2\CGLab2\obj\Debug\MainWindow.g.cs
+d:\projects\КГ\CGLab2\CGLab2\obj\Debug\App.g.cs
+d:\projects\КГ\CGLab2\CGLab2\obj\Debug\CGLab2_MarkupCompile.cache
+d:\projects\КГ\CGLab2\CGLab2\obj\Debug\CGLab2.g.resources
+d:\projects\КГ\CGLab2\CGLab2\obj\Debug\CGLab2.Properties.Resources.resources
+d:\projects\КГ\CGLab2\CGLab2\obj\Debug\CGLab2.csproj.GenerateResource.Cache
+F:\CGLab2\CGLab2\bin\Debug\CGLab2.exe.config
+F:\CGLab2\CGLab2\obj\Debug\CGLab2.exe
+F:\CGLab2\CGLab2\obj\Debug\CGLab2.pdb
